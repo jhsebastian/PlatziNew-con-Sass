@@ -1,25 +1,11 @@
-* {
-  box-sizing: border-box;
-}
+@import '../componentes/globales';
+@import '../componentes/perfiles';
+@import '../componentes/estadisicticas';
+@import '../componentes/ubicaciones';
+@import '../componentes/galerias';
+@import '../componentes/articulos';
 
-body {
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-}
 
-main {
-  display: flex;
-  width: 100%;
-  height: 100vh;
-}
 
-.perfil {
-  width: 50%;
-  padding-top: 50px;
-  .perfil__avatar {
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-  }
-}
+
 
